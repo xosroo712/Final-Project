@@ -1,0 +1,254 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+body {
+    background-image: url(/abstract-red-light-lines-pipe-speed-zoom-black-background-technology_1142-8829.avif);
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    padding: 50px 50px 50px 50px;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt1 {
+    width: 50px;
+    margin-left: 200px;
+    color: #fff;
+    margin-bottom: 5px;
+    border-bottom: 3px firebrick solid;
+
+}
+
+.txt {
+    color: #fff;
+    width: 150px;
+    margin-left: 150px;
+    text-decoration: none;
+
+}
+
+.underline {
+    text-decoration: none;
+    color: #fff;
+}
+
+.parent2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 1100px;
+}
+
+
+.child {
+    width: 600px;
+    height: 800px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 3px solid rgba(194, 33, 76, 0.49);
+    background: rgba(143, 138, 138, 0.28);
+    backdrop-filter: blur(12.5px);
+    position: absolute;
+    padding: 20px 70px 50px 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.child h1 {
+    margin-left: 28px;
+}
+
+.child h3 {
+    margin-left: 28px;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.log {
+    color: #FFF;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 28px;
+
+}
+
+.input label {
+    color: #FFF;
+}
+
+.mainlogo {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+}
+
+.footer {
+
+    padding: 50px 50px 50px 50px;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.footerlogo {
+    width: 150px;
+    height: 150px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.soclogo {
+    width: 100px;
+    height: 50px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.soclogo:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    background-color: firebrick;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.space {
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background: #FFF;
+    border: 0ch;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.pas {
+    margin-top: 20px;
+}
+
+.forgot {
+    margin-top: 15px;
+
+}
+
+.forgot span a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.forgot span a:hover {
+    color: black;
+}
+
+.soc {
+
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+
+.mshobeli {
+
+    width: 405px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+}
+
+.shvili {
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+
+.soc:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: firebrick;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.forgot p {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    color: #fff;
+}
+
+.btn {
+    width: 405px;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: firebrick;
+    border-radius: 100%;
+    margin-left: 50px;
+
+}
+
+* {
+    scroll-behavior: smooth;
+}
